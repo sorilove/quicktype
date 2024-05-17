@@ -27,8 +27,21 @@
             "name": "test",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/node_modules/ts-node/dist/_bin.js",
+            "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
             "args": ["--project", "test/tsconfig.json", "test/test.ts"],
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector",
+            "env": {
+                "CPUs": "1",
+                "FIXTURE": "typescript"
+            }
+        },
+        {
+            "name": "sorilove",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+            "args": ["--project", "test/tsconfig.json", "test/sorilove.ts"],
             "cwd": "${workspaceRoot}",
             "protocol": "inspector",
             "env": {
