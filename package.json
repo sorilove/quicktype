@@ -1,6 +1,6 @@
 {
     "name": "sorilove-quicktype",
-    "version": "23.0.270",
+    "version": "23.0.280",
     "license": "Apache-2.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
