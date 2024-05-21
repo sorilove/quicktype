@@ -1,5 +1,5 @@
 {
-    "name": "quicktype",
+    "name": "sorilove-quicktype",
     "version": "23.0.163",
     "license": "Apache-2.0",
     "main": "dist/index.js",
