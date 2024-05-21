@@ -1,11 +1,11 @@
 {
-    "name": "quicktype-core",
-    "version": "23.0.266",
+    "name": "sorilove-quicktype-core",
+    "version": "23.0.270",
     "description": "The quicktype engine as a library",
     "license": "Apache-2.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "repository": "https://github.com/quicktype/quicktype",
+    "repository": "https://github.com/sorilove/quicktype",
     "scripts": {
         "clean": "rm -rf dist node_modules *~",
         "build": "tsc"

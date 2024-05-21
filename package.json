@@ -1,6 +1,6 @@
 {
     "name": "sorilove-quicktype",
-    "version": "23.0.266",
+    "version": "23.0.270",
     "license": "Apache-2.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -34,7 +34,7 @@
         "graphql": "^0.11.7",
         "lodash": "^4.17.21",
         "moment": "^2.30.1",
-        "quicktype-core": "20.0.12",
+        "sorilove-quicktype-core": "23.0.270",
         "quicktype-graphql-input": "20.0.2",
         "quicktype-typescript-input": "20.0.2",
         "readable-stream": "^4.5.2",
