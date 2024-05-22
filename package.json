@@ -1,10 +1,10 @@
 {
     "name": "sorilove-quicktype",
-    "version": "23.0.280",
+    "version": "23.0.286",
     "license": "Apache-2.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "repository": "https://github.com/sorilove/quicktype",    
+    "repository": "https://github.com/sorilove/quicktype",
     "engines": {
         "node": ">=18.12.0"
     },
@@ -34,10 +34,10 @@
         "graphql": "^0.11.7",
         "lodash": "^4.17.21",
         "moment": "^2.30.1",
-        "sorilove-quicktype-core": "23.0.270",
-        "quicktype-graphql-input": "20.0.2",
-        "quicktype-typescript-input": "20.0.2",
         "readable-stream": "^4.5.2",
+        "sorilove-quicktype-core": "^23.0.287",
+        "sorilove-quicktype-graphql-input": "^23.0.287",
+        "sorilove-quicktype-typescript-input": "^23.0.287",
         "stream-json": "1.8.0",
         "string-to-stream": "^3.0.1",
         "typescript": "4.9.5"

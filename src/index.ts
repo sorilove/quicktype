@@ -45,9 +45,9 @@ import {
     sourcesFromPostmanCollection,
     splitIntoWords,
     trainMarkovChain
-} from "quicktype-core";
-import { GraphQLInput } from "quicktype-graphql-input";
-import { schemaForTypeScriptSources } from "quicktype-typescript-input";
+} from "sorilove-quicktype-core";
+import { GraphQLInput } from "sorilove-quicktype-graphql-input";
+import { schemaForTypeScriptSources } from "sorilove-quicktype-typescript-input";
 
 import { CompressedJSONFromStream } from "./CompressedJSONFromStream";
 import { introspectServer } from "./GraphQLIntrospection";
@@ -352,14 +352,14 @@ function makeOptionDefinitions(targetLanguages: TargetLanguage[]): OptionDefinit
         targetLanguages.length < 2
             ? []
             : [
-                  {
-                      name: "lang",
-                      alias: "l",
-                      type: String,
-                      typeLabel: "LANG",
-                      description: "The target language."
-                  }
-              ];
+                {
+                    name: "lang",
+                    alias: "l",
+                    type: String,
+                    typeLabel: "LANG",
+                    description: "The target language."
+                }
+            ];
     const afterLang: OptionDefinition[] = [
         {
             name: "src-lang",

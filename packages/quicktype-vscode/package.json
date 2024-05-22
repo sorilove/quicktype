@@ -2,7 +2,7 @@
     "name": "quicktype",
     "displayName": "Paste JSON as Code",
     "description": "Copy JSON, paste as Go, TypeScript, C#, C++ and more.",
-    "version": "23.0.270",
+    "version": "23.0.286",
     "publisher": "quicktype",
     "icon": "media/icon.png",
     "galleryBanner": {
@@ -156,8 +156,8 @@
         "eslint": "^8.56.0",
         "typescript": "^5.3.3",
         "node-persist": "^4.0.1",
-        "quicktype-core": "file:../quicktype-core",
-        "quicktype-typescript-input": "file:../quicktype-typescript-input",
+        "sorilove-quicktype-core": "file:../quicktype-core",
+        "sorilove-quicktype-typescript-input": "file:../quicktype-typescript-input",
         "unicode-properties": "github:quicktype/unicode-properties#dist"
     }
 }

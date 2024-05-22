@@ -1,6 +1,6 @@
 {
-    "name": "quicktype-graphql-input",
-    "version": "23.0.270",
+    "name": "sorilove-quicktype-graphql-input",
+    "version": "23.0.287",
     "package": "Package for using GraphQL as an input language to quicktype",
     "license": "Apache-2.0",
     "main": "dist/index.js",
@@ -11,7 +11,7 @@
         "build": "tsc"
     },
     "dependencies": {
-        "quicktype-core": "file:../quicktype-core",
+        "sorilove-quicktype-core": "file:../quicktype-core",
         "collection-utils": "^1.0.1",
         "graphql": "^0.11.7"
     },

@@ -27,7 +27,7 @@ import {
     namesTypeAttributeKind,
     panic,
     removeNullFromUnion
-} from "quicktype-core";
+} from "sorilove-quicktype-core";
 
 import { type GraphQLSchema, TypeKind } from "./GraphQLSchema";
 
@@ -309,7 +309,7 @@ class GQLQuery {
         const nameOrOverride = overrideName ?? gqlType.name;
         const properties = new Map<string, ClassProperty>();
         let selections = expandSelectionSet(selectionSet, gqlType, false);
-        for (;;) {
+        for (; ;) {
             const nextItem = selections.pop();
             if (!nextItem) break;
             const { selection, optional, inType } = nextItem;
